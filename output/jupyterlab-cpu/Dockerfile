@@ -223,6 +223,7 @@ RUN pip install --quiet \
 
 # Update and pin packages
 # See https://github.com/StatCan/aaw-kubeflow-containers/issues/293
+#PIN THESE itertools already installed
 RUN pip3 --no-cache-dir install --quiet \
       'Pillow==9.0.1' \
       'notebook==6.4.1' \
